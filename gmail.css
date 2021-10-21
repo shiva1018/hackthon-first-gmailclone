@@ -1,0 +1,245 @@
+body{
+    margin:0px;
+    border: 0px;
+}
+.contain1 img{
+    object-fit:contain;
+    height:4.5rem;
+    margin-left: 1rem;
+}
+.contain{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    border-bottom: 1px solid wheat;
+}
+.contain1{
+    display: flex;
+    align-items: center;
+}
+.contain span{
+    padding:3rem;
+    cursor: pointer;
+
+}
+.contain2{
+    display: flex;
+    flex:0.7;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:whitesmoke;
+    font-size: 3rem;
+}
+.contain3 material-icons{
+    display: flex;
+    align-items: center;
+}
+.contain2 input{
+    border: none;
+    width: 100%;
+    background-color: transparent ;
+}
+.contain3 material-icons{
+    /* padding: 1rem; */
+    cursor: pointer;
+    align-items: center;
+    border-top: 13px;
+
+}
+.side-contain{
+    flex:0.8px;
+   max-width:300px;
+   padding-right: 30px;
+}
+
+.side-compose{
+    border-radius: 30px;
+    display: flex;
+background-color: white;
+    align-items: center;
+    border: 2px solid black;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+
+}
+.side-compose:hover{
+    color: red;
+    background-color:crimson;
+}
+.side-options material-icons {
+    margin-right: 2px;
+}
+
+.side-options{
+    display: flex;
+    align-items: center;
+    padding-right: 0 10px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 30px;
+    height: 40px;
+    cursor: pointer;
+
+
+}
+.side-options .material-icons {
+    padding: 7px;
+}
+.side-options h3{
+    margin-left: 8px;
+    font-size: 18px;
+}
+.side-options:hover{
+    color:rgb(228, 116, 116);
+    background-color: gray;
+    font-weight: bold;
+}
+.footer{
+    display: flex;
+    padding: 10px;
+    padding-left: 10px;
+    margin: 10px;
+}
+.footer:hover{
+    color: green;
+}
+.main_body{
+    display: flex;
+    height: 100vh;
+}
+.body{
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.main{
+    overflow: scroll;
+    flex: 1;
+}
+.main1{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 999;
+    padding: 8px;
+}
+.inner main2{
+    cursor: pointer;
+    margin: 10px;
+}
+.inner main1{
+    display: flex;
+    align-items: center;
+}
+.email-list{
+    top: 0px;
+    align-items: center;
+    position:sticky;
+    display: flex;
+    border-bottom: 2px solid whitesmoke;
+    justify-content: space-between;
+    background-color: white;
+}
+.email-body{
+    display: flex;
+    align-items: center;
+   padding: 2px;
+   min-width: 200px;
+}
+.email-list:hover{
+    background-color: whitesmoke;
+    text-decoration: underline;
+    color: red;
+}
+
+.email_rowoption{
+    display: flex;
+    align-items: center;
+}
+.email_rowoption .material-icons, input{
+    margin: 6px;
+
+}
+.email_contain{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid whitesmoke;
+    cursor: pointer;
+    z-index: 999;
+}
+.email_contain:hover{
+    border-top: 1px solid whitesmoke;
+    box-shadow: 0px 4px 4px -2px rgb(0, 0, 0.24);
+    transition: all 10sec;
+}
+.email_row_msgs{
+    display: flex;
+    flex: 0.8px;
+    font-size: 14px;
+}
+.email_row_msgs h4{
+    width: 400px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+.title{
+    font-size: 20px;
+    flex: 0.3;
+}
+.sent{
+    border:0px;
+    font-weight: bolder;
+    background-color: white;
+}
+.draft{
+    border:0px;
+    font-weight: bolder;
+    background-color: white;
+
+}
+
+.msg_time{
+    padding-right: 10px;
+    font-size:17px;
+    font-weight: bold;
+}
+.email_description{
+    font-size: 400;
+    color: gray;
+}
+
+.msg1{
+    
+    border: 1px solid black;
+    width: 500px;
+    height:400px ;
+    background-color: whitesmoke;
+    margin: 5rem;
+}
+.head{
+    color: green;
+    text-align: center;
+    background-color:black;
+    border-bottom: 0px;
+}
+.msg{
+    display: flex;
+}
+.subject{
+    width:50%;
+    resize: none;
+}
+.msg-body{
+    margin-left:30px ;
+}
+.title1{
+    color:red;
+}

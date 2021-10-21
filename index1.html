@@ -1,0 +1,332 @@
+<!Doctype html>
+
+<html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+       
+        <meta name="viewport" content="width-device-width, intial-scale=0">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+
+        <!-- google icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="gmail.css">
+        <title>Inbox(123)-123gaga@gmail.com</title>
+    </head>
+    <body>
+      <!-- header part -->
+     <div class="contain">
+     <div class="contain1">
+      <i class="material-icons">dehaze</i>
+  <img src="https://gadgettendency.com/wp-content/uploads/2020/10/Goodbye-envelope-Google-unveils-new-Gmail-logo.jpg">
+     </div>
+     <div class="contain2">
+      <i class="material-icons">search</i>
+      <input type="text" placeholder="Search Mail">
+      <i class="material-icons">
+        arrow_drop_down</i>
+    </div>
+     <div class="contain3">
+      <i class="material-icons">apps</i>
+        <i class="material-icons">notifications</i>
+          <i class="material-icons">account_circle</i>
+
+     </div>
+
+    </div>
+    <div class="main_body">
+     <!-- side-part -->
+     <div class="side-contain">
+       <button onclick="composeme()" class="side-compose"><i class="material-icons">add</i>Compose</button>
+       <div class="side-options"><i class="material-icons">inbox</i><h3>Inbox</h3></div>
+       <div class="side-options"><i class="material-icons">star</i><h3>starred</h3></div>
+       <div class="side-options"><i class="material-icons">snooze</i><h3>snoozed</h3></div>
+       <div class="side-options"><i class="material-icons">label</i><h3>important</h3></div>
+       <div class="side-options"><i class="material-icons">send</i><button onclick="sentmsg()" class="sent">send</button></div>
+       <div class="side-options"><i class="material-icons">drafts</i><button onclick="draftmsg()" class="draft">Draft</button></div>
+
+       <div class="side-options"><i class="material-icons">expand_more</i><h3>More</h3></div>
+  <!-- <footer></footer> -->
+<div class="footer">
+  <div class="foter-1">
+    <i class="material-icons">person</i>
+   <i class="material-icons">duo</i>
+   <i class="material-icons">phone</i>
+</div>
+</div>
+</div>
+ 
+  <!-- <footerend -->
+    <!-- body main -->
+   <div class="main">
+     <div class="main1">
+       <div class="inner main1">
+        <input type="checkbox">
+        <i class="material-icons">arrow_drop_down</i>
+        <i class="material-icons">redo</i>
+        <i class="material-icons">more_vert</i> 
+      </div>
+       <div class="inner main2">
+        <i class="material-icons">chevron_left</i>
+        <i class="material-icons">chevron_right</i>
+        <i class="material-icons">keyboard_hide</i>
+        <i class="material-icons">settings</i>
+       </div>
+     </div>
+    
+    <div class="email-list">
+ <div class="email-body">
+  <i class="material-icons" seleted>inbox</i>
+  <h3>Primary</h3>
+
+ </div>
+ <div class="email-body">
+  <i class="material-icons">people</i>
+  <h3>Social</h3>
+
+ </div>
+ <div class="email-body">
+  <i class="material-icons">local_offer</i>
+  <h3>Promotion</h3>
+
+ </div>
+</div>
+<!-- body End -->
+<!-- msg list start -->
+<div class="email_msg">
+  <div class="email_contain">
+    <div class="email_rowoption">
+      <input type="checkbox">
+      <i class="material-icons">star_border</i>
+      <i class="material-icons">label</i>
+    </div>
+    <h3 class="title">Youtube</h3>
+    <div class="email_row_msgs">
+ <h4>
+   You get a subscribe
+   <span class="email_description">.on future coder</span>
+ </h4>
+
+    </div>
+    <p class="msg_time">3pm</p>
+    
+  </div>
+</div>
+<div class="email_msg">
+  <div class="email_contain">
+    <div class="email_rowoption">
+      <input type="checkbox">
+      <i class="material-icons">star_border</i>
+      <i class="material-icons">label</i>
+    </div>
+    <h3 class="title">Youtube</h3>
+    <div class="email_row_msgs">
+ <h4>
+   You get a subscribe
+   <span class="email_description">.on future coder</span>
+ </h4>
+
+    </div>
+    <p class="msg_time">3pm</p>
+    
+  </div>
+</div>
+<div class="email_msg">
+  <div class="email_contain">
+    <div class="email_rowoption">
+      <input type="checkbox">
+      <i class="material-icons">star_border</i>
+      <i class="material-icons">label</i>
+    </div>
+    <h3 class="title">Youtube</h3>
+    <div class="email_row_msgs">
+ <h4>
+   You get a subscribe
+   <span class="email_description">.on future coder</span>
+ </h4>
+
+    </div>
+    <p class="msg_time">3pm</p>
+    
+  </div>
+</div>
+<div class="email_msg">
+  <div class="email_contain">
+    <div class="email_rowoption">
+      <input type="checkbox">
+      <i class="material-icons">star_border</i>
+      <i class="material-icons">label</i>
+    </div>
+    <h3 class="title">Youtube</h3>
+    <div class="email_row_msgs">
+ <h4>
+   You get a subscribe
+   <span class="email_description">.on future coder</span>
+ </h4>
+
+    </div>
+    <p class="msg_time">3pm</p>
+    
+  </div>
+</div>
+<div class="email_msg">
+  <div class="email_contain">
+    <div class="email_rowoption">
+      <input type="checkbox">
+      <i class="material-icons">star_border</i>
+      <i class="material-icons">label</i>
+    </div>
+    <h3 class="title">Youtube</h3>
+    <div class="email_row_msgs">
+ <h4>
+   You get a subscribe
+   <span class="email_description">.on future coder</span>
+ </h4>
+
+    </div>
+    <p class="msg_time">3pm</p>
+    
+  </div>
+</div>
+<div class="email_msg">
+  <div class="email_contain">
+    <div class="email_rowoption">
+      <input type="checkbox">
+      <i class="material-icons">star_border</i>
+      <i class="material-icons">label</i>
+    </div>
+    <h3 class="title">Youtube</h3>
+    <div class="email_row_msgs">
+ <h4>
+   You get a subscribe
+   <span class="email_description">.on future coder</span>
+ </h4>
+
+    </div>
+    <p class="msg_time">3pm</p>
+    
+  </div>
+</div>
+<div class="email_msg">
+  <div class="email_contain">
+    <div class="email_rowoption">
+      <input type="checkbox">
+      <i class="material-icons">star_border</i>
+      <i class="material-icons">label</i>
+    </div>
+    <h3 class="title">Youtube</h3>
+    <div class="email_row_msgs">
+ <h4>
+   You get a subscribe
+   <span class="email_description">.on future coder</span>
+ </h4>
+
+    </div>
+    <p class="msg_time">3pm</p>
+    
+  </div>
+</div>
+<div class="email_msg">
+  <div class="email_contain">
+    <div class="email_rowoption">
+      <input type="checkbox">
+      <i class="material-icons">star_border</i>
+      <i class="material-icons">label</i>
+    </div>
+    <h3 class="title">Youtube</h3>
+    <div class="email_row_msgs">
+ <h4>
+   You get a subscribe
+   <span class="email_description">.on future coder</span>
+ </h4>
+
+    </div>
+    <p class="msg_time">3pm</p>
+    
+  </div>
+</div>
+<div class="email_msg">
+  <div class="email_contain">
+    <div class="email_rowoption">
+      <input type="checkbox">
+      <i class="material-icons">star_border</i>
+      <i class="material-icons">label</i>
+    </div>
+    <h3 class="title">Youtube</h3>
+    <div class="email_row_msgs">
+ <h4>
+   You get a subscribe
+   <span class="email_description">.on future coder</span>
+ </h4>
+
+    </div>
+    <p class="msg_time">8pm</p>
+    
+  </div>
+</div><div class="email_msg">
+  <div class="email_contain">
+    <div class="email_rowoption">
+      <input type="checkbox">
+      <i class="material-icons">star_border</i>
+      <i class="material-icons">label</i>
+    </div>
+    <h3 class="title">Youtube</h3>
+    <div class="email_row_msgs">
+ <h4>
+   You get a subscribe
+   <span class="email_description">.on future coder</span>
+ </h4>
+
+    </div>
+    <p class="msg_time">4pm</p>
+    
+  </div>
+</div>
+<div class="email_msg">
+  <div class="email_contain">
+    <div class="email_rowoption">
+      <input type="checkbox">
+      <i class="material-icons">star_border</i>
+      <i class="material-icons">label</i>
+    </div>
+    <h3 class="title">Youtube</h3>
+    <div class="email_row_msgs">
+ <h4>
+   You get a subscribe
+   <span class="email_description">.on future coder</span>
+ </h4>
+
+    </div>
+    <p class="msg_time">3pm</p>
+    
+  </div>
+</div>
+<div class="email_msg">
+  <div class="email_contain">
+    <div class="email_rowoption">
+      <input type="checkbox">
+      <i class="material-icons">star_border</i>
+      <i class="material-icons">label</i>
+    </div>
+    <h3 class="title">Youtube</h3>
+    <div class="email_row_msgs">
+ <h4>
+   You get a subscribe
+   <span class="email_description">.on future coder</span>
+ </h4>
+
+    </div>
+    <p class="msg_time">6pm</p>
+    
+  </div>
+</div> 
+<!-- msg lsit end -->
+
+
+ 
+<!-- AIzaSyC2uIvhfX4aN9RTUwq1Tz7d2zDunDgBAjg -->
+        <script src="gmail.js"></script>
+        </body>
+        </html>
+
+    
